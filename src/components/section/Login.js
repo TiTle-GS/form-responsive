@@ -1,13 +1,14 @@
-import React, { Component } from 'react'
+import React from "react";
 
-export class Login extends Component {
-    render() {
-        return (
-            <div>
-                <h2>Login Component</h2>
-            </div>
-        )
-    }
+function Login() {
+  return (
+    <div>
+      <h1>Login</h1>
+      <input type="email" placeholder="email@" />
+      <input type="password" placeholder="password" />
+      <button>login</button>
+    </div>
+  );
 }
 
-export default Login
+export default Login;
